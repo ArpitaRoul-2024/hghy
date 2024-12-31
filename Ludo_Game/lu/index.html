@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome to Ludo</title>
+    <link rel="icon" href="pngegg.png" type="image/png">
+    <meta name="description" content="">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="menuContainer">
+        <div class="container my-auto">
+            <div class="row">
+                <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4 startMenu mx-auto text-center">
+                    <div class="menu">
+                        <h1 class="my-3"><b><span style="color:blue;">L</span>
+                            <span style="color:red;">U</span>
+                            <span style="color:green;">D</span>
+                            <span style="color:yellow;">O</span></b></h1>
+                        <img class="dice" src="pngegg.png" alt="" height="200">
+                        <h3 class="my-3 font-monospace">Select Players</h3>
+                        <div class="choosePlayers">
+                            <div class="redPlayer players" id="redPlayer">
+                                <img src="c.png" alt="">
+                            </div>
+                            <div class="greenPlayer players" id="greenPlayer">
+                                <img src="gg.png" alt="">
+                            </div>
+                            <div class="yellowPlayer players" id="yellowPlayer">
+                                <img src="yy.png" alt="">
+                            </div>
+                            <div class="bluePlayer players" id="bluePlayer">
+                                <img src="bb.png" alt="">
+                            </div>
+                        </div>
+                        <div id="playerNameInput" style="display:none;">
+                            <input type="text" id="playerName" class="form-control mt-3" placeholder="Enter Player Name">
+                            <button class="btn btn-primary mt-2" id="saveName">Save</button>
+                        </div>
+                        <div class="playerDetails mt-4" id="playerDetails"></div>
+                    </div>
+                </div>
+                <div class="start text-center mt-4">
+                    <a href="#" class="btn btn-light" id="play"><b>Play</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="cc2-removebg-preview.png" alt="Dancing Cartoon" class="dancing-cartoon">
+    <script src="index.js" async defer></script>
+</body>
+</html>

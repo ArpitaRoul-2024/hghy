@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('pexels-nietjuh-776654.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+h1 { display: flex; align-items: center; justify-content: center; }
+.welcome-container {
+    text-align: center;
+    color: white;
+}
+
+/*.title-container img {
+    position: absolute;
+    top: -100px;
+    left: 60px;
+    
+    transform: translate(-50%, -50%);
+}
+*/
+.logo {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border: 2px solid goldenrod;
+}
+
+.powered-by {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 14px;
+    color: silver;
+}
+ /* Basic styles for the welcome container */
+ .welcome-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style for the logo */
+.logo {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Style for the start button */
+.start-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+     
+}
+
+/* Style for powered by text */
+.powered-by {
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+/* Style for the dancing cartoon */
+.dancing-cartoon {
+    position: fixed; /* Fixed position */
+    bottom: 20px; 
+    left: 20px; 
+    width: 150px; 
+    height: auto; /* Maintain aspect ratio */
+    animation: dance 1s infinite; /* Dancing animation */
+}
+
+/* Keyframes for dancing animation */
+@keyframes dance {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* Cloud styling */
+.cloud {
+    position: fixed; /* Fixed position */
+    bottom: 260px; /* Adjust this value to move the cloud higher above the cartoon */
+    left: 10%; /* Center horizontally (adjust as needed) */
+    background: black;
+    border: 2px solid goldenrod;
+    border-radius: 15px; /* Rounded corners for cloud shape */
+    padding: 10px 20px; /* Padding around text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    font-size: 16px; /* Font size for message */
+    display: flex; /* Flexbox for centering text */
+    align-items: center; /* Center text vertically */
+}
+
+ 
+@keyframes cloud {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
